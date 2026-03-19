@@ -20,11 +20,11 @@ export function linkedList(head = null, tail = null){
     // const showIndex
 
     const showHead = function(){
-        return {head};
+        return head;
     }
 
     const showTail = function(){
-        return {tail};
+        return tail;
     }
 
     const prepend = function(value){
